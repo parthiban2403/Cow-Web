@@ -1,0 +1,646 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 35px;
+    /*line-height: 50px;*/
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 21px;
+    line-height: 26px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* nav {
+    padding: 100px 0px;
+}
+
+
+#container {
+    width: 1250px;
+    height: 100px;
+    background-color: #2885af;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cow {
+    width: 80px;
+    height: 100px;
+    background-color: #000;
+}
+
+#navigation {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: aliceblue;
+} */
+
+/* 
+#moreSection {
+    padding: 100px 0px;
+    background: url(images/pica-in-dairy-cows-1080x628.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.moreblock {
+    width: 500px;
+    height: 250px;
+    color: #fff;
+    position: absolute;
+    left: 20%;
+    bottom: 20%;
+}
+
+.moreblock h5 {
+    padding-bottom: 15px;
+}
+
+
+.moreblock button {
+    width: 150px;
+    height: 46px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #fcb900;
+    border: black 1px solid;
+    padding: 10px;
+
+}
+
+.moreblock:hover button {
+    width: 150px;
+    height: 46px;
+    position: absolute;
+    background-color: black;
+    top: 575px;
+    left: 120px;
+    color: #fff;
+} */
+
+
+/*more Style End Here*/
+
+
+
+
+
+#welcomeSection {
+    padding: 60px 0px 60px;
+}
+
+#welcomeSection h6 {
+    text-align: center;
+    font-weight: 400;
+    margin: 0px 0px 40px;
+}
+
+#welcomeSection h6::before {
+    content: "Welcome To Our Farm!";
+    font-size: 35px;
+    font-weight: 600;
+    display: block;
+    margin: 0px 0px 8px;
+    padding: 0px 0px 10px;
+}
+
+#welcomeWrapper {
+    width: 1250px;
+    height: 590px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.welcomeBlock {
+    width: 390px;
+    height: 590px;
+    text-align: center;
+    margin: 0px 10px;
+    position: relative;
+}
+
+.welcomeBlock img {
+    width: 330px;
+    height: 320px;
+}
+
+.welcomeBlock h4 {
+    padding: 15px 0px;
+}
+
+.welcomeBlock p {
+    margin: 0px 0px 16px;
+    font-weight: 400;
+}
+
+/* .Discover {
+    width: 150px;
+    height: 46px;
+    margin: 0px auto;
+    overflow: hidden;
+} */
+
+.Discover button {
+    width: 150px;
+    height: 46px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #fcb900;
+    border: black 1px solid;
+    padding: 10px;
+    transition: 1s;
+
+
+}
+
+
+/*.Discover:hover button {
+    width: 150px;
+    height: 46px;
+    position: absolute;
+    top: 475px;
+    left: -30px;
+    background-color: black;
+    transition: 2s;
+    transform: translate(150px, 0px);
+    cursor: pointer;
+    overflow: hidden; 
+
+}*/
+
+.Discover:hover button {
+    width: 150px;
+    height: 46px;
+    position: absolute;
+    background-color: black;
+    top: 475px;
+    left: 120px;
+    color: #fff;
+    transition: 1s;
+    /* transform: translate(50px, 0px); */
+    cursor: pointer;
+}
+
+/*welcome Style End Here*/
+
+
+
+
+
+
+#formSection {
+    padding: 60px 0px 60px;
+}
+
+#foemWrapper {
+    width: 1200px;
+    height: 700px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.formBlock-1 {
+    width: 585px;
+    height: 700px;
+}
+
+.formBlock-1 img {
+    width: 585px;
+    height: 350px;
+}
+
+.formBlock-1 h3 {
+    font-size: 32px;
+    margin: 0px 0px 40px;
+    font-weight: 600;
+    padding: 52px 52px 0px;
+}
+
+.formBlock-1 p {
+    margin: 0px 0px 40px;
+    padding: 0px 52px 0px;
+}
+
+.learn button {
+
+    width: 150px;
+    height: 46px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #fcb900;
+    border: black 1px solid;
+    padding: 10px;
+    margin: 0px 52px 0px;
+    transition: 1s;
+
+}
+
+.learn:hover button {
+    width: 150px;
+    height: 46px;
+    position: absolute;
+    background-color: black;
+    color: #fff;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+.formBlock-2 {
+    width: 585px;
+    height: 700px;
+    position: relative;
+}
+
+.formBlock-2 img {
+    width: 585px;
+    height: 350px;
+}
+
+.formBlock-2 h3 {
+    font-size: 32px;
+    margin: 0px 0px 40px;
+    font-weight: 600;
+    padding: 52px 52px 0px;
+}
+
+.formBlock-2 p {
+    margin: 0px 0px 40px;
+    padding: 0px 52px 0px;
+}
+
+.learn-1 button {
+
+    width: 150px;
+    height: 46px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #fcb900;
+    border: black 1px solid;
+    padding: 10px;
+    margin: 0px 52px 58px;
+    transition: 1s;
+}
+
+.learn-1:hover button {
+    width: 150px;
+    height: 46px;
+    background-color: black;
+    color: #fff;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+/*form Style End Here*/
+
+
+
+
+
+
+#milkSection {
+    padding: 60px 0px 60px;
+    background: url(images/form.jpg) no-repeat;
+    background-position: cover;
+    background-size: cover;
+}
+
+#milkWrapper {
+    width: 1305px;
+    height: 378px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.milkBlock {
+    width: 652px;
+    height: 378px;
+    padding: 50px;
+}
+
+.milkBlock h2 {
+    color: #090909;
+    font-weight: 600;
+    margin: 20px 0px 50px;
+}
+
+.milkBlock p {
+    color: #0c0c0c;
+    line-height: 22px;
+    margin: 0px 0px 16px;
+}
+
+.milkBlock img {
+    width: 351px;
+    height: 347px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+/*milk Style End Here*/
+
+
+
+
+
+#productSection {
+    padding: 60px 0px 60px;
+}
+
+#productSection h6 {
+    text-align: center;
+    font-weight: 400;
+    padding: 0px 0px 30px;
+}
+
+#productSection h6::before {
+    content: "Products";
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0px 0px 8px;
+    display: block;
+}
+
+#productWrapper {
+    width: 1200px;
+    height: 310px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.productBlock {
+    width: 293px;
+    height: 310px;
+    padding: 0px 15px;
+    text-align: center;
+}
+
+.productBlock img {
+    width: 262px;
+    height: 169px;
+}
+
+.productBlock h5 {
+    margin: 20px 0px 10px;
+    font-weight: 400;
+}
+
+.productBlock:hover h5 {
+    color: coral;
+}
+
+.productBlock p {
+    margin: 0px 0px 16px;
+}
+
+.learn-2 button {
+
+    text-align: center;
+    width: 150px;
+    height: 46px;
+    color: #fff;
+    font-size: 15px;
+    background-color: #fcb900;
+    border: black 1px solid;
+    padding: 10px;
+    position: absolute;
+    left: 510px;
+    bottom: -50px;
+    transition: 1s;
+}
+
+.learn-2:hover button {
+    width: 150px;
+    height: 46px;
+    position: absolute;
+    background-color: black;
+    left: 510px;
+    bottom: -50px;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+
+/*product Style End Here*/
+
+
+
+
+
+
+#meetSection {
+    padding: 60px 0px;
+}
+
+#meetSection h6 {
+    text-align: center;
+    font-weight: 400;
+    padding: 40px;
+}
+
+#meetSection h6::before {
+    content: "Meet Our Farmers";
+    font-size: 38px;
+    font-weight: 600;
+    margin: 0px 0px 8px;
+    padding: 0px 0px 8px;
+    display: block;
+}
+
+#meetWrapper {
+    width: 1200px;
+    height: 375px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.meetBlock {
+    width: 292px;
+    height: 375px;
+    padding: 0px 15px;
+}
+
+.meetBlock img {
+    width: 262px;
+    height: 262px;
+}
+
+.meetBlock h5 {
+    text-align: center;
+    font-weight: 500;
+    padding: 15px 0px;
+    margin: 0px 0px 8px;
+}
+
+.icon {
+    text-align: center;
+}
+
+.fa-facebook {
+    color: blue;
+    padding: 8px;
+}
+
+.fa-twitter {
+    color: rgb(0, 225, 255);
+    padding: 8px;
+}
+
+.fa-google {
+    color: #2885af;
+    padding: 8px;
+}
+
+.fa-apple {
+    color: rgb(16, 16, 17);
+    padding: 8px;
+}
+
+/*meet Style End Here*/
+
+
+
+
+
+
+#footerSection {
+    padding: 60px 0px;
+}
+
+#footerwrapper {
+    width: 1200px;
+    height: 542px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.footerBlock {
+    width: 293px;
+    height: 363px;
+    padding: 0px 15px;
+    background: url(images/logo.png) no-repeat;
+    background-position: 13px 0px;
+    background-size: 60px 60px;
+}
+
+.footerBlock h6 {
+    font-weight: 500;
+    color: #fcb900;
+}
+
+.footerBlock h6::before {
+    content: "Cow";
+    font-size: 25px;
+    color: #000;
+    font-weight: 500;
+    padding-left: 65px;
+}
+
+.footerBlock h6:hover::before {
+    color: #951212;
+}
+
+.footerBlock h6::after {
+    content: "Dairy product";
+    font-size: 16px;
+    color: #625e5e;
+    font-weight: 400;
+    padding-left: 60px;
+    display: block;
+    padding: 0px 0px 20px 65px;
+}
+
+.footerBlock p {
+    padding: 0px 0px 20px;
+    font-weight: 500;
+}
+
+.footerBlock-1 {
+    width: 293px;
+    height: 363px;
+    padding: 0px 15px;
+}
+
+.footerBlock-1 h4 {
+    padding: 0px 0px 40px;
+    margin: 0px 0px 8px;
+    font-weight: 600;
+}
+
+.footerBlock-1 ul li {
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.footerBlock-2 {
+    width: 600px;
+    height: 290px;
+    padding: 0px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footerBlock-2 img {
+    width: 165px;
+    height: 127px;
+    margin: 0px 15px;
+
+}
+
+.line {
+    width: 1170px;
+    height: 185px;
+    border-top: 5px solid #555555;
+}
+
+.line p {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 400;
+    color: #625e5e;
+}
+
+.line img {
+    width: 1170px;
+    height: 145px;
+}
